@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portofolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaquaries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Julio Rizky</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Julio Rizky</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic-1.png" alt="Julio Rizky profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Julio Rizky</h1>
+        <p class="section__text__p2">Data Scientist</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('./assets/Julio Rizky Syah Putra_CV.pdf')">Download CV</button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+        </div>
+        <div id="socials-container">
+          <img 
+            src="./assets/linkedin.png" 
+            alt="My LinkedIn profile" 
+            class="icon" 
+            onclick="location.href='https://linkedin.com/in/julio-rizky-611589269'" 
+          />
+          <img 
+            src="./assets/github.png" 
+            alt="My Github profile" 
+            class="icon" 
+            onclick="location.href='https://github.com/JulioRizky'" 
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img 
+          src="./assets/about-pic.png" 
+          alt="Profile picture" 
+          class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img 
+              src="./assets/experience.png" 
+              alt="Experience icon" 
+              class="icon"
+              />
+              <h3>Experience</h3>
+              <p>3 Month<br />Data Scientist</p>
+            </div>
+            <div class="details-container">
+              <img 
+              src="./assets/education.png" 
+              alt="Education icon" 
+              class="icon"
+              />
+              <h3>Education</h3>
+              <p>S.E.I Bachelor of Sharia Economics<br />Universitas Trunojoyo Madura</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. 
+              Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, 
+              dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper 
+              congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est 
+              eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu 
+              massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. 
+              Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. 
+              Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed 
+              dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci 
+              luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed 
+              pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales 
+              hendrerit.
+            </p>
+          </div> 
+        </div>
+      </div>
+      <img 
+      src="./assets/arrow.png" 
+      alt="Arrow icon" 
+      class="icon arrow"
+      onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Data Scientist</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                <div>
+                  <h3>Python</h3>
+                  <p>Beginner</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                <div>
+                  <h3>Tableu</h3>
+                  <p>Beginner</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                <div>
+                  <h3>Microsoft Excel</h3>
+                  <p>Beginner</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img 
+      src="./assets/arrow.png" 
+      alt="Arrow icon" 
+      class="icon arrow"
+      onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">My Recent</p>
+      <h1 class="title">Project</h1>
+      <div class="experience-details-container">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <!-- <img src="./assets/project-1.png" alt="Project 1" class="project-img"> -->
+          </div>
+          <h2 class="experience-sub-title project-title">My First Project</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/JulioRizky/1.1_My_First_Project'">GitHub</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+ </body>
+</html>
